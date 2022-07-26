@@ -1,0 +1,120 @@
+.test {
+    background: url(../projeto-base/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagecentral {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.layout {
+    /* background-color: rgba(192, 28, 28, 0.233); */
+    width: 45rem;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+}
+
+.layout h1,
+p {
+    max-width: 35rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 2.5rem;
+}
+
+.layout h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+}
+
+.row1 {
+    z-index: 1;
+    background-color: rgba(226, 226, 226, 0.233);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid rgba(128, 128, 128, 0.034);
+    width: 40rem;
+    height: 10rem;
+    border-radius: 1.5rem;
+}
+
+.row1 li {
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+.row1 a {
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+#tittle {
+    font-weight: 900;
+    color: rgba(21, 21, 26, 0.562);
+
+}
+
+#price {
+    font-weight: 300;
+    color: rgba(13, 13, 15, 0.562);
+}
+
+.row1 p {
+    color: hsl(223, 92%, 52%);
+    font-weight: 600;
+    z-index: 2;
+    position: absolute;
+    right: 13%;
+    text-decoration: underline;
+}
+
+.row2 {
+    position: absolute;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#payment {
+    border: none;
+    background-color:hsl(223, 92%, 52%);
+    color: antiquewhite;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 40rem;
+    height: 6rem;
+    margin-top: 2.8rem;
+    border-radius: 1.5rem;
+
+}
+
+#cancel {
+    border: none;
+    color: hsl(223, 92%, 52%);
+    width: 40rem;
+    height: 5rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
