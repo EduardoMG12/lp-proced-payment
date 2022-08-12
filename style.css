@@ -1,5 +1,6 @@
-.test {
+.container {
     background: url(../projeto-base/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
+    background-color: #E0E8FF;
     background-size: contain;
     display: flex;
     height: 100vh;
@@ -16,7 +17,7 @@
 }
 
 .layout {
-    /* background-color: rgba(192, 28, 28, 0.233); */
+    background-color: white;
     width: 45rem;
     height: 70rem;
     display: flex;
@@ -37,7 +38,7 @@ p {
     font-weight: bold;
 }
 
-.row1 {
+.contentbox {
     z-index: 1;
     background-color: rgba(226, 226, 226, 0.233);
     position: relative;
@@ -51,12 +52,12 @@ p {
     border-radius: 1.5rem;
 }
 
-.row1 li {
+.contentbox li {
     list-style: none;
     font-size: 1.7rem;
 }
 
-.row1 a {
+.contentbox a {
     display: flex;
     justify-content: center;
     margin-right: 2rem;
@@ -67,7 +68,6 @@ p {
 #tittle {
     font-weight: 900;
     color: rgba(21, 21, 26, 0.562);
-
 }
 
 #price {
@@ -75,7 +75,8 @@ p {
     color: rgba(13, 13, 15, 0.562);
 }
 
-.row1 p {
+.contentbox p {
+    cursor: pointer;
     color: hsl(223, 92%, 52%);
     font-weight: 600;
     z-index: 2;
@@ -84,22 +85,24 @@ p {
     text-decoration: underline;
 }
 
-.row2 {
+.imagecontentbox {
     position: absolute;
     left: 5%;
     display: flex;
     flex-direction: row;
 }
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
+
 #payment {
+    cursor: pointer;
     border: none;
-    background-color:hsl(223, 92%, 52%);
+    background-color: hsl(223, 92%, 52%);
     color: antiquewhite;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -111,6 +114,7 @@ p {
 }
 
 #cancel {
+    cursor: pointer;
     border: none;
     color: hsl(223, 92%, 52%);
     width: 40rem;
