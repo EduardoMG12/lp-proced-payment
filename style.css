@@ -1,5 +1,5 @@
 .container {
-    background: url(../projeto-base/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
+    background: url(./projeto-base/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
     background-color: #E0E8FF;
     background-size: contain;
     display: flex;
